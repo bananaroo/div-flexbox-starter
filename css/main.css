@@ -99,13 +99,41 @@ textarea {
 html {
   background-color: #efa4bf;
   height: 100%;
+  width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  font-family: 'Nunito', sans-serif;
+  padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
+}
+header, footer {
+    background-color: #efa4bf;
+    height: 120px;
+    width: 100%;
+}
+
+main {
+    background-color: #efa4bf;
+    height: 250px;
+    width: 100%;
+}
+
+header, footer, main {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #fff;
+}
+
+.name-font {
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    padding: 20px;
+}
+.fed-style {
+    text-transform:capitalize;
 }
 
 .wrapper {
@@ -114,22 +142,27 @@ body {
   justify-content: space-between;
   flex-flow: row wrap;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .div-1, .div-2, .div-3 {
   color: #fff;
-  line-height: 1.5em;
+  line-height: 1.15em;
   font-size: 1.6em;
   background-color: #efa4bf;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
-  align-items: center;
-  border:2px solid rgb(237, 233, 190);
+  align-items: initial;
+  border:3px dotted rgb(237, 233, 190);
+  display: block;
+  padding: 10px;
 }
 
-
+img {
+    height: 100px;
+}
 
 
 /* ==========================================================================
